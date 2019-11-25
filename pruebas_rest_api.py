@@ -75,3 +75,4 @@ if __name__ == "__main__":
     pk = 8
     deleteArticulo(URL, pk)
     getArticulos(URL)
+    print("\n")
