@@ -32,6 +32,6 @@ class ArticuloView(APIView):
         return Response({"exito": "Articulo '{}' actualizado satisfactoriamente".format(articulo_actualizado.titulo)})
 
     def delete(self, request, pk):
-        article = get_object_or_404(Articulo.objects.all(), pk=pk)
-        article.delete()
-        return Response({"mensaje": "Articulo con id `{}` ha sido eliminado.".format(pk)},status=204)
+        articulo = get_object_or_404(Articulo.objects.all(), pk=pk)
+        articulo.delete()
+        return Response({"mensaje": "Articulo con id `{}` ha sido eliminado.".format(pk)})

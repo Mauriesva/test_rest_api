@@ -4,6 +4,7 @@ from .models import Articulo
 
 
 class ArticuloSerializer(serializers.Serializer):
+    id = serializers.IntegerField()
     titulo = serializers.CharField(max_length=150)
     contenido = serializers.CharField()
     autores_id = serializers.IntegerField()
