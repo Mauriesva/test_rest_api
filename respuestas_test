@@ -1,0 +1,35 @@
+
+Respuesta 1:
+Un decorador nos permite añadir mayor funcionalidad a una función concreta, es una función que se pasa como argumento otra función y retorna una nueva función.
+
+Respuesta 2:
+Se puede llamar una función pasándole unos parámetros, también se puede hacer una llamada sin parámetros.
+Si en alguna ocasión no se sabe cuántos elementos se necesita enviar a una función, en estos casos se puede utilizar parámetros indeterminados, lo obtenemos por su posición, o por su nombre:
+Para acceder por su posición, se define el parámetro de la función (*args), se envía una lista dinámica de argumentos.
+Para acceder por su nombre (clave-valor), se define el parámetro de la función (**kwargs), se envía un diccionario dinámico a esta función.
+A la función también se le puede enviar ambas cosas.
+Estas funciones también pueden devolver un valor o valores múltiples.
+Respuesta 3:
+Listas:
+Una lista puede contener varios tipos de datos, como enteros, cadenas, booleanos, etc. Estos datos pueden modificarse después de su creación, estos elementos están ordenados, permite indexación, se pueden repetir los valores dentro de esta. Son declarados usando corchetes.
+Set:
+Es una colección desordenada de datos que no son mutables, no permite indexación, son únicos es decir no se pueden repetir. Son declarados usando las llaves.
+Diccionario:
+Un diccionario almacena elementos estos están asociados por su clave y valor, sin tener un orden dentro de la colección.
+La clave es única, que actúa como un identificador para ese valor dentro del diccionario.
+A diferencia de los elementos de una lista, los elementos en un diccionario no tienen un orden específico.
+
+Respuesta 5:
+Modelo:
+El modelo define los datos almacenados, se encuentra en forma de clases de Python, cada tipo de dato que es almacenado se encuentra en una variable con ciertos parámetros, posee métodos también. Todo esto permite indicar y controlar el comportamiento de los datos.
+Vista:
+La vista se presenta en forma de funciones en Python, determina como serán visualizados los datos.
+El ORM de Django permite escribir código Python en lugar de SQL para hacer las consultas que necesita la vista, la presentación de los datos es tarea de la plantilla.
+Plantilla:
+La plantilla es básicamente una página HTML con algunas etiquetas extras propias de Django, en sí no solamente crea contenido en HTML (también XML, CSS, Javascript, CSV, etc).
+La plantilla recibe los datos de la vista y luego lo presenta en el navegador web.
+
+Respuesta 6:
+La herencia simple es cuando la clase base comparte sus atributos y métodos o comportamientos con otras clases derivadas.
+La herencia múltiple:
+La herencia múltiple es cuando una subclase puede heredar sus atributos y métodos de varias super clases.
