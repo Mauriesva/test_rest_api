@@ -21,6 +21,9 @@ print(r)
 print(r.json())
 
 
+
+
+
 data = {"articulo":{
             "titulo": "TituloNuevo",
             "contenido": "Contenido NUEVO",
@@ -47,6 +50,8 @@ data = {"articulo":{
             "contenido": "Contenido NUEVOModificado",
             "autores_id": 1
 }}
+
+
 
 
 URL = "http://127.0.0.1:8000/api/articulos/19"
